@@ -6,7 +6,7 @@ slug: allure.html
 ---
 
 
-[Allure](https://qameta.io/allure-report/) is an open-source framework designed for detailed and interactive test reports.
+[Allure](https://allurereport.org/) is an open-source framework designed for detailed and interactive test reports.
 It works by generating report files which are then used to create the final HTML report.
 You can think of it as like the traditional junit report but more advanced and detailed.
 
@@ -49,7 +49,7 @@ Now, whenever tests are executed, Kotest will write out test data in the allure 
 ### Gradle Plugin
 
 Now that the tests have completed, we can compile them into
-the [final report](https://docs.qameta.io/allure/#_report_generation).
+the [final report](https://allurereport.org/docs/gettingstarted-view-report/).
 
 This can be done manually using the allure binary, or we can use
 the [allure gradle plugin](https://github.com/allure-framework/allure-gradle). To use the gradle plugin, first add the
